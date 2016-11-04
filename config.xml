@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <widget xmlns="http://www.w3.org/ns/widgets"  xmlns:gap="http://phonegap.com/ns/1.0" id="com.drbhupendra.patient" version="1.0">
  
-    <name>DR.BHUPENDRA VIASHNAV RHEUMATOLOGIST</name>
+    <name>DR.BHUPENDRA VAISHNAV RHEUMATOLOGIST</name>
     <preference name="orientation" value="default" />
     <preference name="fullscreen" value="false" />
 	<preference name="SplashScreen" value="splash" />
@@ -10,7 +10,7 @@
     <gap:platform name="ios" />
     <gap:platform name="android" />
     <description>
-      R.BHUPENDRA VIASHNAV RHEUMATOLOGIST
+      DR.BHUPENDRA VAISHNAV RHEUMATOLOGIST
     </description> 
     <author href="http://www.arth.tech" email="support@arth.tech">
         Arth Tech
