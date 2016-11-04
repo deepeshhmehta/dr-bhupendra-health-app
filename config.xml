@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<widget xmlns="http://www.w3.org/ns/widgets"  xmlns:gap="http://phonegap.com/ns/1.0" id="com.hopedoctor.patient" version="1.1.1">
+<widget xmlns="http://www.w3.org/ns/widgets"  xmlns:gap="http://phonegap.com/ns/1.0" id="com.drbhupendra.patient" version="1.0">
  
-    <name>Hope Doctors</name>
+    <name>DR.BHUPENDRA VIASHNAV RHEUMATOLOGIST</name>
     <preference name="orientation" value="default" />
     <preference name="fullscreen" value="false" />
 	<preference name="SplashScreen" value="splash" />
@@ -10,10 +10,10 @@
     <gap:platform name="ios" />
     <gap:platform name="android" />
     <description>
-      Hope Doctors Health App
+      R.BHUPENDRA VIASHNAV RHEUMATOLOGIST
     </description> 
     <author href="http://www.arth.tech" email="support@arth.tech">
-        Infini Systems
+        Arth Tech
     </author>
     <icon src="icon.png" />
 	
