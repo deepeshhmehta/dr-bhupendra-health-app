@@ -1,5 +1,6 @@
 // Ionic Starter App
 var domain = "https://hope.arth.tech/";
+var apkInterfaceId =32;
 //var domain = "http://test.doctrs.in/";
 //var domain = "http://192.168.2.169/doctors/";
 angular.module('underscore', [])
