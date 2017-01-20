@@ -502,7 +502,7 @@ angular.module('your_app_name', [
 
                     .state('app.records-view', {
                         cache: false,
-                        url: "/records-view/{id:int}/{shared:string}",
+                        url: "/records-view/{id:string}/{shared:string}",
                         views: {
                             'menuContent': {
                                 templateUrl: function () {
@@ -1104,7 +1104,7 @@ angular.module('your_app_name', [
                             }
                         }
                     })
-                     .state('app.video-broadcast-interactive', {
+                    .state('app.video-broadcast-interactive', {
                         cache: false,
                         url: "/video-broadcast-interactive/{session_id:string}/{token:string}/{publish:int}",
                         views: {
@@ -1114,13 +1114,52 @@ angular.module('your_app_name', [
                             }
                         }
                     })
-                     .state('app.schedule-video-broadcast', {
+                    .state('app.schedule-video-broadcast', {
                         cache: false,
                         url: "/video-broadcast-schedule",
                         views: {
                             'menuContent': {
                                 templateUrl: "views/app/video-broadcast-schedule.html",
                                 controller: 'VideoBroadcastScheduleCtrl'
+                            }
+                        }
+                    })
+                    .state('app.consultationnotes', {
+                        url: "/consultationnotes/{appId:string}",
+                        views: {
+                            'menuContent': {
+                                templateUrl: "views/app/consultation-notes-list.html",
+                                controller: 'ConsultationsNotesListCtrl'
+                            }
+                        }
+                    })
+                    .state('app.consultation-note-details', {
+                        url: "/consultationnotedetails/{appId:string}",
+                        views: {
+                            'menuContent': {
+                                templateUrl: "views/app/consultation-note-details.html",
+                                controller: 'ConsultationsNotesDetailsCtrl'
+                            }
+                        }
+                    })
+                    .state('app.consultation-note-records', {
+                        url: "/consultation-note-records/{appId:string}",
+                        views: {
+                            'menuContent': {
+                                templateUrl: "views/app/consultation-note-records.html",
+                                controller: 'ConsultationNoteRecordsCtrl'
+                            }
+                        }
+                    })
+                    .state('app.records-view-box', {
+                        cache: false,
+                        url: "/records-view-box/{id:int}/{name:string}",
+                        views: {
+                            'menuContent': {
+                                templateUrl: function () {
+                                    return "views/app/records/records-view-box.html";
+                                },
+                                controller: 'RecordsViewBoxCtrl'
                             }
                         }
                     })
